@@ -284,7 +284,7 @@
         <!-- ===== End of Notices Section ===== -->
 
     <!-- ===== Start of Pricing Table Section ===== -->
-    <section class="pricing-tables pb80">
+    {{-- <section class="pricing-tables pb80">
         <div class="container">
             <h2 class="capitalize text-center pt30">{{ __('messages.pricings_table') }}</h2>
             <div class="row align-items-stretch">
@@ -328,7 +328,7 @@
                 </div>
             </div>
             </div>
-        </section>
+    </section> --}}
     <!-- ===== End of Pricing Table Section ===== -->
 
     <!-- ===== Start of Branding Slider Section ===== -->
