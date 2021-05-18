@@ -74,11 +74,11 @@
 
 .image__file-upload {
     padding: 10px;
-    background: #6777ef;
+    background: #EB6E80;
     display: table;
     color: white;
     border-radius: .25rem;
-    border-color: #6777ef;
+    border-color: #EB6E80;
 
     //&:hover {
     //    cursor: pointer;
@@ -117,7 +117,7 @@ table .thumbnail-rounded {
 }
 
 .m-header {
-    background-color: #6777ef !important;
+    background-color: #EB6E80 !important;
 }
 
 .profile-header {
@@ -479,7 +479,7 @@ div.dataTables_wrapper {
             color: white !important;
             background: #0719eb !important;
             box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-            border: 1px solid #6777ef !important;
+            border: 1px solid #EB6E80 !important;
             padding: .5rem .75rem !important;
             font-weight: 600 !important;
             margin: 0 5px !important;
@@ -501,7 +501,7 @@ div.dataTables_wrapper {
 
             &:hover {
                 background: #0719eb !important;
-                border: 1px solid #6777ef !important;
+                border: 1px solid #EB6E80 !important;
                 color: #fff !important;
                 font-weight: 600;
             }
@@ -533,7 +533,7 @@ div.dataTables_wrapper {
     margin-left: 3px;
 
     &:focus {
-        border-color: #6777ef
+        border-color: #EB6E80
     }
 }
 
@@ -581,7 +581,7 @@ div.dataTables_wrapper {
 .ui-state-hover, .ui-state-active {
     color: #ffffff;
     text-decoration: none;
-    background: linear-gradient(130deg, #6777ef 38%, #3ae2f0 123%) !important;
+    background: linear-gradient(130deg, #EB6E80 38%, #EB6E80 123%) !important;
     border-radius: 0px;
     border-color: #e1e7ef !important;
     -webkit-border-radius: 0px;
@@ -856,7 +856,7 @@ section#job-page .company-info, section#job-page .job-sidebar, section#job-page 
     width: 19%;
     border: none;
     padding: 0;
-    background-color: #6777ef;
+    background-color: #EB6E80;
 }
 
 .login-nav {
@@ -867,14 +867,14 @@ section#job-page .company-info, section#job-page .job-sidebar, section#job-page 
         text-align: center;
 
         a:focus {
-            color: #6777ef !important;
-            border-color: #6777ef !important;
+            color: #EB6E80 !important;
+            border-color: #EB6E80 !important;
         }
     }
 
     li.active > a {
-        color: #6777ef !important;
-        border-color: #6777ef !important;
+        color: #EB6E80 !important;
+        border-color: #EB6E80 !important;
     }
 }
 
@@ -955,7 +955,7 @@ section#login .login-box .login-title {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     transition: all 0.2s;
-    border: 0.5px solid #6777ef;
+    border: 0.5px solid #EB6E80;
     opacity: 0.9;
 }
 
@@ -1075,7 +1075,7 @@ body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i {
     width: 19%;
     border: none;
     padding: 0;
-    background-color: #6777ef;
+    background-color: #EB6E80;
 }
 
 .border-primary {
@@ -1100,7 +1100,7 @@ body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     transition: all 0.2s;
-    border: 0.5px solid #6777ef;
+    border: 0.5px solid #EB6E80;
     opacity: 0.9;
 }
 
@@ -1155,7 +1155,7 @@ body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i {
 
 .resumes .graduate-icon {
     font-size: 1.2rem;
-    border: 1px solid #6777ef;
+    border: 1px solid #EB6E80;
     border-radius: 50%;
     padding: 1rem;
 }
@@ -1173,7 +1173,7 @@ body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i {
     top: 50%;
     width: 33%;
     left: 0;
-    border-bottom: 1px dashed #6777ef;
+    border-bottom: 1px dashed #EB6E80;
 }
 
 .resumes .section_title:after {
@@ -1182,7 +1182,7 @@ body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item > .nav-link i {
     top: 50%;
     width: 33%;
     right: 0;
-    border-bottom: 1px dashed #6777ef;
+    border-bottom: 1px dashed #EB6E80;
 }
 
 .resumes .section_header_title {
@@ -1334,11 +1334,11 @@ a.language-text:hover {
 }
 
 a.languageSelection:hover {
-    color: #6777ef !important;
+    color: #EB6E80 !important;
 }
 
 a.register-selection:hover {
-    color: #6777ef !important;
+    color: #EB6E80 !important;
 }
 
 #main-nav .navbar-nav .open a.current-language {
@@ -1347,7 +1347,7 @@ a.register-selection:hover {
 
 #main-nav .navbar-nav .language-menu .dropdown-menu {
     min-width: 135px;
-    border-top: solid 3px #6777ef;
+    border-top: solid 3px #EB6E80;
     text-transform: uppercase;
     @media (max-width: 992px) {
         left: 0%;
@@ -1502,8 +1502,8 @@ a.register-selection:hover {
 a.login-btn {
     border-radius: 4px !important;
     box-shadow: 0 2px 6px #acb5f6;
-    background-color: #6777ef !important;
-    border-color: #6777ef !important;
+    background-color: #EB6E80 !important;
+    border-color: #EB6E80 !important;
     letter-spacing: 0.8px;
     text-transform: capitalize;
     @media screen and (max-width: 992px) {
@@ -1511,7 +1511,7 @@ a.login-btn {
     }
 
     &:hover {
-        background-color: #6777ef !important;
+        background-color: #EB6E80 !important;
     }
 }
 
@@ -1568,7 +1568,7 @@ section.main .wrapper {
 }
 
 .image-slider .owl-nav button.owl-next, .image-slider .owl-nav button.owl-prev, .image-slider .owl-dot.active {
-    background: linear-gradient(130deg, #6777ef, #3ae2f0) !important;
+    background: linear-gradient(130deg, #EB6E80, #EB6E80) !important;
     color: inherit !important;
     border-radius: 50% !important;
     height: 10px !important;
@@ -1625,7 +1625,7 @@ section.main {
         display: block !important;
     }
     .btn-primary {
-        background-color: #6777ef;
+        background-color: #EB6E80;
         margin-bottom: 10px;
     }
 }
@@ -1736,7 +1736,7 @@ body #app {
 }
 
 .pricing-slider .owl-nav button.owl-next, .pricing-slider .owl-nav button.owl-prev, .pricing-slider .owl-dot.active, {
-    background: linear-gradient(130deg, #6777ef, #3ae2f0) !important;
+    background: linear-gradient(130deg, #EB6E80, #EB6E80) !important;
     color: inherit !important;
     border-radius: 50% !important;
     height: 10px !important;
@@ -1963,8 +1963,8 @@ body #app {
 li.language-menu {
     border-radius: 4px !important;
     box-shadow: 0 2px 6px #acb5f6;
-    background-color: #6777ef !important;
-    border-color: #6777ef !important;
+    background-color: #EB6E80 !important;
+    border-color: #EB6E80 !important;
     letter-spacing: 0.8px;
     text-transform: capitalize;
     @media screen and (max-width: 992px) {
@@ -1973,7 +1973,7 @@ li.language-menu {
     }
 
     &:hover {
-        background-color: #6777ef !important;
+        background-color: #EB6E80 !important;
     }
 }
 
@@ -2194,7 +2194,7 @@ a.language-text {
 }
 
 .favorite-job-header {
-    background-color: #6777ef;
+    background-color: #EB6E80;
     text-align: left;
     color: #fff;
     vertical-align: top;
@@ -2296,7 +2296,7 @@ a.language-text {
 }
 
 .ribbon-primary {
-    background: #6777ef;
+    background: #EB6E80;
 }
 
 .ribbon-warning {
@@ -2335,7 +2335,7 @@ a.language-text {
 }
 
 .ribbon-primary:before {
-    border-color: #6777ef transparent transparent;
+    border-color: #EB6E80 transparent transparent;
 }
 
 .ribbon-info:before {
@@ -2366,7 +2366,7 @@ a.language-text {
 }
 
 .favorite-companies-header {
-    background-color: #6777ef !important;
+    background-color: #EB6E80 !important;
     border-radius: 4px 4px 4px 4px;
     padding: 15px 28px;
     color: #fff;
@@ -2419,7 +2419,7 @@ h3.job-listing-title-favorite-company.job-listing-follower {
 }
 
 .blue-color {
-    border-top: 3px solid #6777ef !important;
+    border-top: 3px solid #EB6E80 !important;
 }
 
 .black-color {
@@ -2672,7 +2672,7 @@ div #main-nav ul li .current-language {
     width: 100%;
 
     .dropdown-menu {
-        border-top: solid 3px #6777ef;
+        border-top: solid 3px #EB6E80;
         text-transform: uppercase;
         left: 29%;
         display: inherit;
@@ -2821,7 +2821,7 @@ div#timeRange {
 }
 
 .border-hover-primary:hover {
-    border: 1px solid #6777ef;
+    border: 1px solid #EB6E80;
 }
 
 .hover-effect-employee:hover {
@@ -2957,7 +2957,7 @@ div#timeRange {
 }
 
 .border-hover-primary:hover {
-    border: 1px solid #6777ef !important;
+    border: 1px solid #EB6E80 !important;
 }
 
 .employee-avatar-img {

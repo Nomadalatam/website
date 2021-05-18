@@ -6,7 +6,7 @@
     overflow: hidden;
     border: 1px solid #e1e4fc;
     border-radius: 8px;
-    background-image: linear-gradient(130deg, #6777ef, #3ae2f0);
+    background-image: linear-gradient(130deg, #EB6E80, #EB6E80);
     color: #fff;
 }
 
@@ -22,7 +22,7 @@
     color: #ffffff;
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(130deg, #6777ef, #3ae2f0);
+    background-image: linear-gradient(130deg, #EB6E80, #EB6E80);
 
     //&:hover {
     //    &:after {
@@ -43,7 +43,7 @@
     //    opacity: 0;
     //    top: 0;
     //    left: 0;
-    //    background-image: linear-gradient(to right, #6777ef , #3ae2f0);
+    //    background-image: linear-gradient(to right, #EB6E80 , #EB6E80);
     //}
     //
     //@keyframes show-hover {
@@ -52,7 +52,7 @@
     //    }
     //    100% {
     //        opacity: 1;
-    //        background-image: linear-gradient(130deg, #6777ef , #3ae2f0);
+    //        background-image: linear-gradient(130deg, #EB6E80 , #EB6E80);
     //    }
     //}
 }
@@ -72,7 +72,7 @@
     background-image: none;
 
     .top-categories {
-        background-image: linear-gradient(130deg, #6777ef, #3ae2f0);
+        background-image: linear-gradient(130deg, #EB6E80, #EB6E80);
         width: 22%;
         margin: auto;
         position: relative !important;

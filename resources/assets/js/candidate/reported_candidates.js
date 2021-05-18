@@ -9,7 +9,7 @@ $(document).on('click', '.delete-btn', function (event) {
             showCancelButton: true,
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
-            confirmButtonColor: '#6777ef',
+            confirmButtonColor: '#EB6E80',
             cancelButtonColor: '#d33',
             cancelButtonText: 'No',
             confirmButtonText: 'Yes',
@@ -25,7 +25,7 @@ document.addEventListener('delete', function () {
         title: 'Deleted!',
         text: 'reported candidate has been deleted.',
         type: 'success',
-        confirmButtonColor: '#6777ef',
+        confirmButtonColor: '#EB6E80',
         timer: 2000,
     });
 });

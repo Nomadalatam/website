@@ -102,7 +102,7 @@ $('document').ready(function () {
             datasets: [
                 {
                     label: 'Total Job Applications',
-                    backgroundColor: '#6777ef',
+                    backgroundColor: '#EB6E80',
                     data: data.jobApplicationCounts,
                     borderWidth: 1,
                 },

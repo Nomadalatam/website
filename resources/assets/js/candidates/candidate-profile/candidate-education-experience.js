@@ -237,7 +237,7 @@ $(document).ready(function () {
             showCancelButton: true,
             closeOnConfirm: false,
             showLoaderOnConfirm: true,
-            confirmButtonColor: '#6777ef',
+            confirmButtonColor: '#EB6E80',
             cancelButtonColor: '#d33',
             cancelButtonText: 'No',
             confirmButtonText: 'Yes',
@@ -269,7 +269,7 @@ $(document).ready(function () {
                     title: 'Deleted!',
                     text: header + ' has been deleted.',
                     type: 'success',
-                    confirmButtonColor: '#6777ef',
+                    confirmButtonColor: '#EB6E80',
                     timer: 2000,
                 });
             },
@@ -278,7 +278,7 @@ $(document).ready(function () {
                     title: '',
                     text: data.responseJSON.message,
                     type: 'error',
-                    confirmButtonColor: '#6777ef',
+                    confirmButtonColor: '#EB6E80',
                     timer: 5000,
                 });
             },

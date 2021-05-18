@@ -58,13 +58,13 @@ Author URI: gnodesign.com
     .navbar-toggle {
         display: block !important;
         float: right !important;
-        border-color: #6777ef !important;
+        border-color: #EB6E80 !important;
         margin-top: 15px;
         margin-right: 0;
     }
 
     .navbar-default .navbar-toggle .icon-bar {
-        background: #6777ef;
+        background: #EB6E80;
     }
 
     .navbar-toggle:focus,

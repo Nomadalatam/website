@@ -180,7 +180,7 @@ $(document).on('click', '.change-status', function (event) {
         showCancelButton: true,
         closeOnConfirm: false,
         showLoaderOnConfirm: true,
-        confirmButtonColor: '#6777ef',
+        confirmButtonColor: '#EB6E80',
         cancelButtonColor: '#d33',
         cancelButtonText: 'No',
         confirmButtonText: 'Yes',
