@@ -12,7 +12,7 @@
 .categories-section {
     border: 1px solid #e3e3e3;
     padding: 20px;
-    box-shadow: 0 0 3px #acb5f6;
+    box-shadow: 0 0 3px #cccccc;
     border-radius: 50% 50%;
     transition: all .3s ease-in;
 }

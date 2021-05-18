@@ -1235,14 +1235,14 @@ ul.list {
 }
 
 .btn-purple {
-    box-shadow: 0 2px 6px #acb5f6;
+    box-shadow: 0 2px 6px #cccccc;
     background-color: #EB6E80;
     border-color: #EB6E80;
     color: #fff;
 }
 
 .btn-purple:hover {
-    background-color: #394eea !important;
+    background-color: #EB6E80 !important;
 }
 
 .btn-orange {
@@ -1939,7 +1939,7 @@ div#main-nav {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: .25em;
-    box-shadow: 0 2px 6px #acb5f6;
+    box-shadow: 0 2px 6px #cccccc;
 }
 
 
@@ -2635,7 +2635,7 @@ footer .footer-info .footer-newsletter input.form-control {
     border-radius: .25em 0 0 .25em;
     color: #999;
     padding-left: 20px;
-    box-shadow: 0 2px 6px #acb5f6;
+    box-shadow: 0 2px 6px #cccccc;
 }
 
 footer .footer-info .footer-newsletter button {
@@ -3527,7 +3527,7 @@ ul.pagination {
     color: #f6f6f6;
     background: #EB6E80;
     border: 2px solid #EB6E80;
-    box-shadow: 0 2px 6px #acb5f6;
+    box-shadow: 0 2px 6px #cccccc;
     padding: 7px 14px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -3559,7 +3559,7 @@ ul.pagination li.active .page-link {
     color: #EB6E80;
     background: none;
     border: 2px solid #EB6E80;
-    box-shadow: 0 2px 6px #acb5f6;
+    box-shadow: 0 2px 6px #cccccc;
     padding: 9px 15px !important;
     margin-left: 1px;
     -webkit-border-radius: 5px;
