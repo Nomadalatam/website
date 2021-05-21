@@ -49069,7 +49069,7 @@ INSERT INTO `front_settings` (`id`, `key`, `value`, `created_at`, `updated_at`) 
 (7, 'featured_jobs_enable', '0', '2021-04-27 06:38:02', '2021-04-27 06:38:02'),
 (8, 'featured_companies_enable', '0', '2021-04-27 06:38:02', '2021-04-27 06:38:02'),
 (9, 'latest_jobs_enable', '0', '2021-04-27 06:38:02', '2021-04-27 06:38:02'),
-(10, 'advertise_image', 'assets/img/infyom-logo.png', '2021-04-27 06:38:02', '2021-04-27 06:38:02');
+(10, 'advertise_image', 'assets/img/nomada-logo.png', '2021-04-27 06:38:02', '2021-04-27 06:38:02');
 
 -- --------------------------------------------------------
 
@@ -50197,7 +50197,7 @@ CREATE TABLE IF NOT EXISTS `settings` (
 
 INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
 (1, 'application_name', 'InfyOmLabs', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),
-(2, 'logo', 'assets/img/infyom-logo.png', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),
+(2, 'logo', 'assets/img/nomada-logo.png', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),
 (3, 'favicon', 'favicon.ico', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),
 (4, 'company_description', 'Leading Laravel Development Company of India', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),
 (5, 'address', '446, Tulsi Arcade, Nr. Sudama Chowk, Mota Varachha, Surat - 394101, Gujarat, India', '2021-04-27 06:38:01', '2021-04-27 06:38:01'),

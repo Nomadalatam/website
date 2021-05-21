@@ -146,7 +146,7 @@
             </div>
             <div class="col-6 col-xl-6 pl-0 mt-1">
                 <img id='logoPreview' class="thumbnail-preview w-25"
-                     src="{{ asset('assets/img/infyom-logo.png') }}">
+                     src="{{ asset('assets/img/nomada-logo.png') }}">
             </div>
         </div>
     </div>

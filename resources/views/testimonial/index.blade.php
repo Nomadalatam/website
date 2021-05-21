@@ -32,7 +32,7 @@
     <script>
         let testimonialUrl = "{{ route('testimonials.index') }}/";
         let testimonialSaveUrl = "{{ route('testimonials.store') }}";
-        let defaultDocumentImageUrl = "{{ asset('assets/img/infyom-logo.png') }}";
+        let defaultDocumentImageUrl = "{{ asset('assets/img/nomada-logo.png') }}";
     </script>
     <script src="{{ asset('assets/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('assets/js/summernote.min.js') }}"></script>

@@ -26,7 +26,7 @@
                             </div>
                             <div class="col-6 col-xl-6 pl-0 mt-1">
                                 <img id='editPreviewImage' class="img-thumbnail thumbnail-preview"
-                                     src="{{ asset('assets/img/infyom-logo.png') }}">
+                                     src="{{ asset('assets/img/nomada-logo.png') }}">
                             </div>
                         </div>
                         <a href="#" target="_blank" id="imageSliderUrl"></a>

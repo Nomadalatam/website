@@ -151,21 +151,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown simple-menu language-menu no-hover">
-                                <a href="#" class="dropdown-toggle language-text current-language"
-                                   data-toggle="dropdown" role="button" id="language">
-                                    {{ getCurrentLanguageName() }}&nbsp;
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu" id="dropdownLanguage">
-                                    @foreach(getLanguages() as $key => $value)
-                                        @if(checkLanguageSession() != $key)
-                                            <li><a href="javascript:void(0)" class="languageSelection language-text"
-                                                   data-prefix-value="{{ $key }}">{{ $value }}</a></li>
-                                        @endif
-                                    @endforeach
-                                </ul>
-                            </li>
+                            
                             <li class="dropdown simple-menu language-menu no-hover">
                                 <a href="#" class="dropdown-toggle language-text current-language"
                                    data-toggle="dropdown" role="button" id="login">
@@ -181,6 +167,22 @@
                                            class="language-text register-selection">
                                             {{ __('messages.company.employer') }}</a>
                                     </li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown simple-menu language-menu no-hover">
+                                <a href="#" class="dropdown-toggle language-text current-language"
+                                   data-toggle="dropdown" role="button" id="language">
+                                    {{ getCurrentLanguageName() }}&nbsp;
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" id="dropdownLanguage">
+                                    @foreach(getLanguages() as $key => $value)
+                                        @if(checkLanguageSession() != $key)
+                                            <li><a href="javascript:void(0)" class="languageSelection language-text"
+                                                   data-prefix-value="{{ $key }}">{{ $value }}</a></li>
+                                        @endif
+                                    @endforeach
                                 </ul>
                             </li>
                         @endauth

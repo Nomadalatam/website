@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-6 col-xl-6 pl-0 mt-1">
                     <img id='logoPreview' class="img-thumbnail thumbnail-preview"
-                         src="{{($setting['logo']) ? asset($setting['logo']) : asset('assets/img/infyom-logo.png')}}">
+                         src="{{($setting['logo']) ? asset($setting['logo']) : asset('assets/img/nomada-logo.png')}}">
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-6 pl-0 mt-1">
                     <img id='faviconPreview' class="img-thumbnail thumbnail-preview mt-4 width-40px"
-                         src="{{($setting['favicon']) ? asset($setting['favicon']) : asset('assets/img/infyom-logo.png')}}">
+                         src="{{($setting['favicon']) ? asset($setting['favicon']) : asset('assets/img/nomada-logo.png')}}">
                 </div>
             </div>
         </div>

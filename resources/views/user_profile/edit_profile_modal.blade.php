@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-3">
                         <img id='profilePicturePreview' class="img-thumbnail thumbnail-preview"
-                             src="{{ asset('assets/img/infyom-logo.png') }}">
+                             src="{{ asset('assets/img/nomada-logo.png') }}">
                     </div>
                 </div>
                 <div class="text-right">

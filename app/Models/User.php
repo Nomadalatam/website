@@ -227,7 +227,7 @@ class User extends Authenticatable implements HasMedia, MustVerifyEmail
             return $media->getFullUrl();
         }
 
-        return asset('assets/img/infyom-logo.png');
+        return asset('assets/img/nomada-logo.png');
     }
 
 

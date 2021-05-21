@@ -377,7 +377,7 @@
                                         <article class="article">
                                             <div class="article-header">
                                                 <img class="article-image"
-                                                     src="{{ empty($post->blog_image_url) ? asset('assets/img/article-image.png') : $post->blog_image_url }}"
+                                                     src="{{ empty($post->blog_image_url) ? asset('assets/img/nomada-logo.png') : $post->blog_image_url }}"
                                                      alt="Blog Article"/>
                                                 <div class="article-title">
                                                     <h2>

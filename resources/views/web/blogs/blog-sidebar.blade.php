@@ -16,7 +16,7 @@
 
                 <div class="thumbnail-post">
                     <a href="{{ route('front.posts.details',$popularBlog->id) }}">
-                        <img src="{{ !empty($popularBlog->blog_image_url)?$popularBlog->blog_image_url:asset('assets/img/infyom-logo.png') }}"
+                        <img src="{{ !empty($popularBlog->blog_image_url)?$popularBlog->blog_image_url:asset('assets/img/nomada-logo.png') }}"
                              alt="">
                     </a>
                 </div>

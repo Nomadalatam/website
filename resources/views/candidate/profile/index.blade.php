@@ -31,7 +31,7 @@
     <script>
         let companyStateUrl = "{{ route('states-list') }}";
         let companyCityUrl = "{{ route('cities-list') }}";
-        let defaultImageUrl = "{{ asset('assets/img/infyom-logo.png') }}";
+        let defaultImageUrl = "{{ asset('assets/img/nomada-logo.png') }}";
     </script>
     @stack('page-scripts')
     <script src="{{ asset('assets/js/select2.min.js') }}"></script>

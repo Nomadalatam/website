@@ -14,7 +14,7 @@
             <div class="row company-profile">
                 <div class="col-md-3 col-xs-12">
                     <div class="profile-photo company-detail-logo ticket-sender-picture">
-                        <img src="{{ (!empty($companyDetail->company_url)) ? $companyDetail->company_url : asset('assets/img/infyom-logo.png') }}"
+                        <img src="{{ (!empty($companyDetail->company_url)) ? $companyDetail->company_url : asset('assets/img/nomada-logo.png') }}"
                              class="img-responsive" alt="">
                     </div>
                     <ul class="social-btns list-inline text-center mt20">

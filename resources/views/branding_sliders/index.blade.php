@@ -34,7 +34,7 @@
     <script>
         let brandingSliderUrl = "{{ route('branding.sliders.index') }}";
         let brandingSliderSaveUrl = "{{ route('branding.sliders.store') }}";
-        let defaultDocumentImageUrl = "{{ asset('assets/img/infyom-logo.png') }}";
+        let defaultDocumentImageUrl = "{{ asset('assets/img/nomada-logo.png') }}";
         let view = "{{ __('messages.common.view') }}";
         let brandingExtensionMessage = "{{ __('messages.image_slider.image_extension_message') }}";
     </script>

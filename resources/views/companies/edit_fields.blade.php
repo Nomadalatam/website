@@ -136,7 +136,7 @@
             </div>
             <div class="col-6 col-xl-6 pl-0 mt-1">
                 <img id='logoPreview' class="thumbnail-preview w-25"
-                     src="{{ (!empty($company->user->media[0])) ? $company->user->media[0]->getFullUrl() : asset('assets/img/infyom-logo.png') }}">
+                     src="{{ (!empty($company->user->media[0])) ? $company->user->media[0]->getFullUrl() : asset('assets/img/nomada-logo.png') }}">
             </div>
         </div>
     </div>

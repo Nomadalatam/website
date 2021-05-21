@@ -19,7 +19,7 @@
             </div>
             <div class="col-6 col-xl-6 pl-0 mt-1">
                 <img id='previewImage' class="thumbnail-preview w-25"
-                     src="{{ empty($post->blog_image_url)?asset('assets/img/infyom-logo.png'):$post->blog_image_url  }}">
+                     src="{{ empty($post->blog_image_url)?asset('assets/img/nomada-logo.png'):$post->blog_image_url  }}">
             </div>
         </div>
     </div>

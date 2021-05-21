@@ -36,7 +36,7 @@
 
                                 <span aria-hidden="true" class="stretchy-nav-bg"></span>
                             </nav>
-                            <img src="{{ empty($post->blog_image_url) ? asset('assets/img/article-image.png') :$post->blog_image_url }}"
+                            <img src="{{ empty($post->blog_image_url) ? asset('assets/img/nomada-logo.png') :$post->blog_image_url }}"
                                  class="article-image"/>
                             <div class="article-title">
                                 <h2>

@@ -15,7 +15,7 @@ $blue-color: #EB6E80;
 //Home page
 .overlay-black {
     &:before {
-        background-image: linear-gradient(130deg, #E9B000 38%, #E9B000 123%) !important;
+        background-image: linear-gradient(130deg, #DFAA1C 38%, #DFAA1C 123%) !important;
     }
 }
 
@@ -105,7 +105,7 @@ section#job-page {
 
 // page header style
 section.page-header:after {
-    background: linear-gradient(to right, #E9B000 -20%, #E9B000 120%);
+    background: linear-gradient(to right, #DFAA1C -20%, #DFAA1C 120%);
     opacity: 1;
 }
 

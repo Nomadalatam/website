@@ -83,7 +83,7 @@
     let updateLanguageURL = "{{ url('update-language')}}";
     let changePasswordUrl = "{{ url('employer/employer-change-password') }}";
     let loggedInUserId = "{{ getLoggedInUserId() }}";
-    let defaultImageUrl = "{{ asset('assets/img/infyom-logo.png') }}";
+    let defaultImageUrl = "{{ asset('assets/img/nomada-logo.png') }}";
 </script>
 <script src="{{ mix('assets/js/employer_profile/employer_profile.js') }}"></script>
 <script src="{{ asset('js/currency.js') }}"></script>

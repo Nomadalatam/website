@@ -245,7 +245,7 @@ function getCompanyLogo()
         return $user->avatar;
     }
 
-    return asset('assets/img/infyom-logo.png');
+    return asset('assets/img/nomada-logo.png');
 }
 
 // number formatted code

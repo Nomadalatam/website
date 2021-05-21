@@ -70,7 +70,7 @@
             </div>
             <div class="col-6 mt-1">
                 <img id='advertisePreview' class="img-thumbnail thumbnail-preview"
-                     src="{{($frontSettings['advertise_image'])?asset($frontSettings['advertise_image']):asset('assets/img/infyom-logo.png')}}">
+                     src="{{($frontSettings['advertise_image'])?asset($frontSettings['advertise_image']):asset('assets/img/nomada-logo.png')}}">
             </div>
         </div>
     </div>

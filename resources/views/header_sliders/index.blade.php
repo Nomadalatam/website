@@ -57,7 +57,7 @@
     <script>
         let headerSliderUrl = "{{ route('header.sliders.index') }}/";
         let headerSliderSaveUrl = "{{ route('header.sliders.store') }}";
-        let defaultDocumentImageUrl = "{{ asset('assets/img/infyom-logo.png') }}";
+        let defaultDocumentImageUrl = "{{ asset('assets/img/nomada-logo.png') }}";
         let view = "{{ __('messages.common.view') }}";
         let headerSizeMessage = "{{ __('messages.header_slider.image_size_message') }}";
         let headerExtensionMessage = "{{ __('messages.image_slider.image_extension_message') }}";

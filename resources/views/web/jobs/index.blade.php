@@ -151,7 +151,7 @@
 
                         <!-- Advertisment -->
                         <div class="job-advert mt30">
-                            <img src="{{ isset($advertise_image->value)?$advertise_image->value: asset('assets/img/infyom-logo.png')}}"
+                            <img src="{{ isset($advertise_image->value)?$advertise_image->value: asset('assets/img/nomada-logo.png')}}"
                                  class="img-responsive" alt="">
                         </div>
                     </div>

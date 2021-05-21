@@ -106,6 +106,6 @@
     <div class="form-group col-sm-12 col-md-12 col-xl-6">
         {{ Form::label('company_logo', __('messages.company.company_logo').':') }}
         <img id='logoPreview' class="thumbnail-preview w-25"
-             src="{{ (!empty($company->user->media[0])) ? $company->user->media[0]->getFullUrl() : asset('assets/img/infyom-logo.png') }}">
+             src="{{ (!empty($company->user->media[0])) ? $company->user->media[0]->getFullUrl() : asset('assets/img/nomada-logo.png') }}">
     </div>
 </div>

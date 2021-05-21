@@ -12,7 +12,7 @@ class SettingsTableSeeder extends Seeder
      */
     public function run()
     {
-        $imageUrl = 'assets/img/infyom-logo.png';
+        $imageUrl = 'assets/img/nomada-logo.png';
         $favicon = 'favicon.ico';
 
         Setting::create(['key' => 'application_name', 'value' => 'InfyOmLabs']);

@@ -17,7 +17,7 @@
                             <img src="{{ $testimonial->customer_image_url }}" class="web-testimonial-customer-img"
                                  alt="">
                         @else
-                            <img src="{{ asset('assets/img/infyom-logo.png') }}"
+                            <img src="{{ asset('assets/img/nomada-logo.png') }}"
                                  class="web-testimonial-customer-img thumbnail-preview" alt="">
                         @endif
                         <h4 class="uppercase pt20">{{ html_entity_decode($testimonial->customer_name) }}</h4>
