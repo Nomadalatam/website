@@ -171,10 +171,9 @@
                             </li>
 
                             <li class="dropdown simple-menu language-menu no-hover">
-                                <a href="#" class="dropdown-toggle language-text current-language"
+                                <a href="#" class="dropdown-toggle language-text current-language medium-icon"
                                    data-toggle="dropdown" role="button" id="language">
-                                    {{ getCurrentLanguageName() }}&nbsp;
-                                    <span class="caret"></span>
+                                   <i class="fa fa-globe" aria-hidden="true"></i><span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu" role="menu" id="dropdownLanguage">
                                     @foreach(getLanguages() as $key => $value)

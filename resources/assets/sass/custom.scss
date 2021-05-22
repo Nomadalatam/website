@@ -594,6 +594,7 @@ div.dataTables_wrapper {
 .user-thumbnail {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    background-color: white;
 }
 
 .sidebar-brand img {
@@ -605,6 +606,7 @@ div.dataTables_wrapper {
 .admin-sidebar-brand img {
     max-height: 80px;
     margin: 5% 5%;
+    object-fit: contain;
 }
 
 .section-header .public-profile {
@@ -1982,8 +1984,12 @@ li.language-menu {
 
 .navbar .navbar-nav > li > a.current-language {
     color: white !important;
+    font-size: 10px;
 }
 
+.navbar .navbar-nav > li > a.medium-icon {
+    font-size: 16px;
+}
 div#main-nav .simple-menu a.current-language:focus {
     color: white !important;
 }

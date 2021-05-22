@@ -116,10 +116,10 @@
                     <div class="col-md-3 {{ ($loop->last && $loop->iteration == 5) ? 'col-md-offset-4' : '' }} mt30">
                         <div class="top-categories">
                             <div align="center" class="margin-top">
-                                <h4 class="category-name"><a
+                                <h5 class="category-name"><a
                                             href="{{ route('front.search.jobs',array('categories'=> $category->id)) }}">
                                         {{ html_entity_decode($category->name) }} <span class="d-inline-flex"> ( {{ $category->jobs_count }} )</span>
-                                    </a></h4>
+                                    </a></h5>
                                 <br>
                             </div>
                         </div>
