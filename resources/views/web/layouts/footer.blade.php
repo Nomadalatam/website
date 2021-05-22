@@ -83,7 +83,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <span>
                     {{ __('web.footer.all_rights_reserved') }} &copy;{{ date('Y') }}
-                    <a href="{{ getSettingValue('company_url') }}" class="text-blue">
+                    <a href="{{ getSettingValue('company_url') }}">
                         {{ html_entity_decode($settings['application_name']) }}.
                     </a>
                 </span>

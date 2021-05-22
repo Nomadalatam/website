@@ -1,4 +1,4 @@
-$blue-color: #EB6E80;
+$blush: #EB6E80;
 
 #main-nav {
     .simple-menu {
@@ -6,7 +6,7 @@ $blue-color: #EB6E80;
             text-transform: capitalize;
 
             &:focus {
-                color: $blue-color !important;
+                color: $blush !important;
             }
         }
     }
@@ -26,12 +26,14 @@ $blue-color: #EB6E80;
 
 .job-search-form .btn-purple {
     background: #fff;
-    color: $blue-color !important;
+    color: $blush !important;
     border: 0;
     border-radius: 5px;
 
     &:hover {
-        background-color: #e4eeff !important;
+        background-color: $blush !important;
+        color: white !important;
+        box-shadow: none !important;
     }
 }
 
@@ -87,11 +89,11 @@ section#job-page .company-info .job-company {
 
 section#job-page {
     .job-overview li h5 i {
-        color: $blue-color;
+        color: $blush;
     }
 
     .label.label-info {
-        background-color: $blue-color;
+        background-color: $blush;
     }
 }
 
@@ -117,7 +119,7 @@ section.page-header:after {
 //About page
 .about-process {
     .process-icon {
-        background: $blue-color !important;
+        background: $blush !important;
     }
 
     h5.step-no {
@@ -128,16 +130,16 @@ section.page-header:after {
 
 //blog page
 .blog-sidebar .widget-title:after {
-    background: $blue-color;
+    background: $blush;
 }
 
 
 //login page
 section#login .login-box .login-title {
-    background: $blue-color;
+    background: $blush;
 
     &:before {
-        background: $blue-color;
+        background: $blush;
     }
 }
 

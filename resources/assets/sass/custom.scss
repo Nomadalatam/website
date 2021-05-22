@@ -1,5 +1,7 @@
 @import "infy-loader";
-
+a:hover {
+    color: #008F95;
+}
 .bg-gray {
     background: #f9f9f9;
 }
@@ -3022,4 +3024,16 @@ div#timeRange {
 .reported-note {
     height: 100px;
     overflow: auto;
+}
+
+.btn-primary, .btn-primary.disabled {
+    box-shadow: 0 2px 6px #cccccc;
+}
+
+.btn-primary:focus:active, .btn-primary.disabled:focus:active {
+    background-color: #EB6E80 !important;
+}
+
+.form-control,.form-control:focus, .input-group-text:focus, .custom-select:focus, .custom-file-label:focus {
+    border-color: #EB6E80;
 }

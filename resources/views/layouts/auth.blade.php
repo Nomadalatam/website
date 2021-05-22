@@ -12,6 +12,9 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/web/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/web/css/components.css')}}">
+    <link href="{{ mix('assets/css/infy-loader.css') }}" rel="stylesheet" type="text/css"/>
+    {{--    @yield('css')--}}
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 </head>
 
 <body>
